@@ -5,7 +5,7 @@ public class MarketDataFetcher : BackgroundService
 {
     private readonly IHubContext<MarketDataHub> _hubContext;
     private readonly HttpClient _httpClient = new();
-    private readonly string _apiKey = "d0kbmg9r01qn937jrijgd0kbmg9r01qn937jrik0"; // Replace with real key
+    private readonly string _apiKey = "YOUR-API-KEY"; // Replace with real key
 
     public MarketDataFetcher(IHubContext<MarketDataHub> hubContext)
     {
